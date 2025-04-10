@@ -1,1 +1,201 @@
-Hi there!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aussie Walker</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+        }
+
+        p.motto {
+            font-size: 1.5em;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            line-height: 1.6;
+        }
+
+        .map h2 {
+            font-size: 2em;
+            margin: 40px 0 0;
+            color: #fff;
+        }
+
+        .map iframe {
+            margin: 20px auto;
+            border: none;
+            width: 90%;
+            max-width: 800px;
+            height: 500px;
+        }
+
+        .social-links {
+            margin: 20px 0;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        footer a {
+            color: #ffcc00; /* Matches the color of the YouTube link */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p.motto {
+                font-size: 1em;
+            }
+
+            iframe {
+                height: 300px;
+            }
+        }
+
+        .videos {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+        }
+
+        .videos h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .video-container iframe {
+            width: 90%;
+            max-width: 320px;
+            height: 180px;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .video-container iframe {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        .youtube-message {
+            font-size: 1.2em;
+            margin: 20px auto;
+            padding: 10px;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            line-height: 1.5;
+        }
+
+        .youtube-message a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        .youtube-message a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <img src="logo.png" alt="Aussie Walker Logo">
+        <h1>Aussie Walker</h1>
+    </div>
+</header>
+
+<p class="motto">Aussie Walker redefines travel by giving you the best walking tours. Relax and enjoy a walking tour right from the comfort of your own home.</p>
+
+<p class="youtube-message">Visit our YouTube channel for more amazing content: <a href="https://www.youtube.com/@Aussie_" target="_blank">Aussie Walker YouTube</a></p>
+
+<section class="videos">
+    <h2>Popular Videos</h2>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/HRg1gJi6yqc" title="Popular Video 1" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/gENJ8nqPfVs" title="Popular Video 2" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/3-276V_mfJM" title="Popular Video 3" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/lY2fb76PobI" title="Popular Video 4" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Ik0Ltd0ryDE" title="Popular Video 5" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/_pm6aYFzLl8" title="Popular Video 6" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section class="map">
+    <h2>Explore Our Walking Routes</h2>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1exB5VnKj9RsljgyBQzgjgqLnjDiRmq4&ehbc=2E312F"></iframe>
+</section>
+
+<div class="social-links">
+    <a href="https://www.facebook.com/aussiewalkerfb" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/aussie_walker_ig/" target="_blank">Instagram</a>
+    <a href="https://www.youtube.com/@Aussie_" target="_blank">YouTube</a>
+</div>
+
+<footer>
+    &copy; 2025 Aussie Walker. All rights reserved. <br>
+    <span style="display: inline-block; margin-top: 8px;">Contact us: <a href="mailto:info@aussiewalker.com">info@aussiewalker.com</a></span>
+</footer>
+</body>
+</html>
